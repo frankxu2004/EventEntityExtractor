@@ -18,14 +18,12 @@ For any questions/issues about the code, please feel free to email Bishan Yang (
 ```
 
 ## Compile the code
-cd Release
-
-make clean
+cmake
 
 make
 
 ## Run the model
-./Release/JEE
+./JEE
 
 ## Example input
 ace.test.conll: test documents in the CoNLL format

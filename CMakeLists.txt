@@ -6,4 +6,4 @@ file(GLOB_RECURSE data resources/*)
 
 add_executable(JEE ${sources} ${data})
 
-target_compile_options(JEE PUBLIC -std=c++1y -Wall -Wfloat-conversion)
+target_compile_options(JEE PUBLIC -std=c++11)
