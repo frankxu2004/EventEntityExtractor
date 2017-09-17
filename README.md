@@ -54,8 +54,11 @@ joint.results.txt stores the extracted events, entities, and argument roles.
 The outputs are organized according to the detected event triggers. For each trigger, we output its event type, and for each of its associated argument candidate, we output its entity type and role type: 
 
 DocID#SentID#StartOffset#EndOffset  EventType
+
 DocID#SentID#StartOffset#EndOffset#EntityType  RoleType
+
 DocID#SentID#StartOffset#EndOffset#EntityType  RoleType
+
 . . .
 
 
